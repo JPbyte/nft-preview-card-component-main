@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 270px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.image{
+    margin-bottom: 13px;
+    border-radius: 10px;
+    height: 234px;
+}
+.image img{
+  max-width: 100%;
+  height: 100%;
+  align-self: center;
+  opacity: 1;
+  border-radius: 10px;
+}
+.image a{
+    cursor:pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.image img:hover{
+    opacity: 0.7;
+    
+}
+
+.image:hover{
+    background-color:hsl(178, 100%, 50%);
+    background: hsl(178, 100%, 50%) url(nft-preview-card-component-main/images/icon-view.svg) no-repeat center;
+    
+}
+
+h1{
+    font-family:'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    margin-bottom: 13px;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+h1 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.descricao{
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.icon-nft1{
+    display: flex;
+}
+
+.icon-nft1 img{
+    margin-right: 5px;
+}
+
+.icon-nft2{
+    display: flex;
+
+}
+
+.icon-nft2 img{
+    margin-right: 5px;
+}
+
+.valor{
+    font-family:'Outfit', sans-serif;
+    font-size: 12px;
+    margin: 4px;
+    
+    
+}
+.valor-1{
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+.footer-card{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-card img{
+    width: 29px;
+    margin-right: 10px;
+    border: 1px white solid;
+    border-radius: 20px;
+}
+
+.perfil-content{
+    margin: 0;
+    color: hsl(215, 51%, 70%);;
+}
+
+hr{
+    width: 100%;
+    margin-bottom:11px;
+    margin-top: 11px;
+    border:1px hsl(215, 32%, 27%) solid;
+}
+
+.perfil-content a{
+    margin-left: 6px;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.perfil-content a:hover{
+    color: hsl(178, 100%, 50%);
+}
