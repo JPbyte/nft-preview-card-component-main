@@ -33,8 +33,8 @@ Desktop design
 
 ### Links
 
-- Solution URL: [NFT preview card component solution]()
-- Live Site URL: [GitHub Pages]() 
+- Solution URL: [NFT preview card component solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-gds74sYvVK)
+- Live Site URL: [GitHub Pages](https://jpbyte.github.io/nft-preview-card-component-main/) 
 
 ## My process
 
