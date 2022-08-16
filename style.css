@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .card{
@@ -159,4 +160,8 @@ hr{
 
 .perfil-content a:hover{
     color: hsl(178, 100%, 50%);
+}
+
+footer{
+    color: white;
 }
